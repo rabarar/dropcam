@@ -21,6 +21,7 @@ func main() {
 		fmt.Printf("need to set both %s and %s\n", USER, PASS)
 		return
 	}
+	
 	fmt.Printf("***** GETTING Dropcam **** \n")
 	d, err := new(dropcam.Dropcam).Init(u, p)
 	if err != nil {
@@ -37,7 +38,6 @@ func main() {
 
 	//fmt.Printf("type=%T\n", c.Cam.Items)
 	for j, owned := range c.Cam {
-		//fmt.Printf("%d %d: %T %T\n", i, j, items, owned)
 		fmt.Printf("%d: %s\n", j, owned.Title)
 	}
 
@@ -45,10 +45,14 @@ func main() {
 	et := time.Now()
 	fmt.Printf("starting at %s ending at %s\n", st, et)
 
+	// Need to create a directory in the cwd called "images"
+	// infinite loop - and  every 5 seconds write the images into the images file
+	//
+	
 	for {
 		fmt.Printf("***** GETTING Image **** \n")
 		for i, o := range c.Cam {
-			fn := "./rob/img-" + fmt.Sprintf("%d-", i) + fmt.Sprintf("%d", time.Now().Unix())
+			fn := "./images/img-" + fmt.Sprintf("%d-", i) + fmt.Sprintf("%d", time.Now().Unix())
 			err = c.SaveImage(&o, fn, 720, time.Now())
 			if err != nil {
 				fmt.Printf("error saving image %d\n", i)
