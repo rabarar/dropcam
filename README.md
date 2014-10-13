@@ -1,4 +1,4 @@
-go-drop
+dropcam
 =======
 
 Dropcam Library 0.1 (Beta)
