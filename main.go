@@ -1,7 +1,7 @@
 package main
 
 import (
-	"dropcam"
+	"github.com/rabarar/go-drop/dropcam"
 	"fmt"
 	"time"
 )
