@@ -1,6 +1,8 @@
 dropcam
 =======
 
+usage: go get github.com/rabarar/dropcam
+
 Dropcam Library 0.1 (Beta)
 
 Based on the great work by Ryan Galloway (https://github.com/rsgalloway/dropcam), I've adopted this code for go.
@@ -12,7 +14,7 @@ How to use:
 package main
 
 import (
-        "github.com/rabarar/go-drop/dropcam"
+        "github.com/rabarar/dropcam"
         "fmt"
         "time"
 )
