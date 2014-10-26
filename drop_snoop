@@ -1,0 +1,2370 @@
+
+Interesting URLs @ dropcam:
+
+https://www.dropcam.com/app/clips/new_count?_=1413386150940
+
+https://www.dropcam.com/app/messages?cache=1413386155935
+
+https://nexusapi.dropcam.com/get_connectivity_summary?uuid=5b7f0da53c1343798fbafa3f0bfc4c9c
+{"connectivity_summary":"GoodConnection","last_connection_strength":96,"last_updated_time":1413385926.23}
+
+https://www.dropcam.com/app/messages?cache=1413296290509
+
+REQ -> https://www.dropcam.com/app/cameras/5b7f0da53c1343798fbafa3f0bfc4c9c
+
+RES:
+{
+    "where_options": [{
+        "where": "",
+        "nest_where_id": "custom"
+    }, {
+        "where": "Living Room",
+        "nest_where_id": "00000000-0000-0000-0000-00010000000c"
+    }, {
+        "where": "Kitchen",
+        "nest_where_id": "00000000-0000-0000-0000-00010000000a"
+    }, {
+        "where": "Entryway",
+        "nest_where_id": "00000000-0000-0000-0000-000100000000"
+    }, {
+        "where": "Office",
+        "nest_where_id": "00000000-0000-0000-0000-00010000000e"
+    }, {
+        "where": "Family Room",
+        "nest_where_id": "00000000-0000-0000-0000-00010000000b"
+    }, {
+        "where": "Garage",
+        "nest_where_id": "00000000-0000-0000-0000-000100000007"
+    }, {
+        "where": "Bedroom",
+        "nest_where_id": "00000000-0000-0000-0000-00010000000d"
+    }, {
+        "where": "Kids Room",
+        "nest_where_id": "00000000-0000-0000-0000-000100000008"
+    }, {
+        "where": "Basement",
+        "nest_where_id": "00000000-0000-0000-0000-000100000001"
+    }, {
+        "where": "Upstairs",
+        "nest_where_id": "00000000-0000-0000-0000-00010000000f"
+    }, {
+        "where": "Downstairs",
+        "nest_where_id": "00000000-0000-0000-0000-000100000006"
+    }, {
+        "where": "Dining Room",
+        "nest_where_id": "00000000-0000-0000-0000-000100000010"
+    }, {
+        "where": "Den",
+        "nest_where_id": "00000000-0000-0000-0000-000100000003"
+    }, {
+        "where": "Master Bedroom",
+        "nest_where_id": "00000000-0000-0000-0000-000100000005"
+    }, {
+        "where": "Hallway",
+        "nest_where_id": "00000000-0000-0000-0000-000100000002"
+    }
+    ],
+    "is_audio_enabled": true,
+    "nexus_get_image_url": "https://nexusapi.dropcam.com/get_image?width=280&uuid=5b7f0da53c1343798fbafa3f0bfc4c9c",
+    "streaming_schedule": {
+        "override_reason": "web",
+        "override_state": true,
+        "key": "streaming.enabled",
+        "camera_id": 238467,
+        "geofencing_enabled": false,
+        "overridden_at": 1401797424,
+        "enabled": false,
+        "id": 435603,
+        "periods": []
+    },
+    "is_streaming_enabled": true,
+    "is_status_led_enabled": true,
+    "accepted_subscriptions": [],
+    "is_nest_away_notify_enabled": true,
+    "is_video_flipped": false,
+    "personal_subscriptions": [],
+    "timezone": "America/New_York",
+    "is_motion_detection_enabled": true,
+    "id": 238467,
+    "live_stream_host": "oculus33-vir.dropcam.com:1935",
+    "is_streaming": true,
+    "are_notifications_enabled": true,
+    "uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+    "notifications_schedule": {
+        "override_reason": "iphone",
+        "override_state": true,
+        "key": "notify.enabled",
+        "camera_id": 238467,
+        "geofencing_enabled": false,
+        "overridden_at": 1401663693,
+        "enabled": false,
+        "id": 435659,
+        "periods": []
+    },
+    "title": "DC-NY-34-01",
+    "public_token": "yKr6tQ",
+    "capabilities": ["image.properties", "irled", "force_idr", "video.flip", "backfill", "watermark", "standby", "udp", "detectors.on_camera", "statusled", "audio.speaker", "streaming.start-stop", "audio.microphone", "labs", "dptz", "streaming.params"],
+    "properties": [{
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "audio.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "notify.offline.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "streaming.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "audio.inputgainlevel",
+        "value": 0.75
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "oculus.streaming.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "video.motiondetector.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "udp.enabled",
+        "value": false
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "audio.sounddetector.enabled",
+        "value": false
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "irled.state",
+        "value": "auto_on"
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "notify.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "notify.sound.enabled",
+        "value": false
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "last_clustering_update",
+        "value": "1400183917.42"
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "last_firmware_version",
+        "value": "120"
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "statusled.enabled",
+        "value": true
+    }, {
+        "camera_uuid": "5b7f0da53c1343798fbafa3f0bfc4c9c",
+        "name": "notify.motion.enabled",
+        "value": true
+    }
+    ],
+    "is_trial_mode": false,
+    "pending_subscriptions": [],
+    "location": null,
+    "setup_wireless_url": "/setup/wireless/5b7f0da53c1343798fbafa3f0bfc4c9c",
+    "mac_address": "308cfb6b9071",
+    "is_trial_warning": false,
+    "serial_number": "Serial Number 308cfb6b9071",
+    "type": 6,
+    "has_bundle": false,
+    "owner_id": "220933",
+    "last_local_ip": "192.168.1.15",
+    "owner_email": "rabarar@yahoo.com",
+    "description": "",
+    "timezone_utc_offset": - 14400,
+    "is_labs_cloud_enabled": true,
+    "setting": {
+        "security_mode": "wpa_personal",
+        "password": null,
+        "id": 246793,
+        "camera_id": 238467,
+        "ssid": "BaruchLAN3"
+    },
+    "irled_state": "auto_on",
+    "nest_where_id": null,
+    "notifications": [{
+        "last_sent_at": "2014-10-12T19:07:53Z",
+        "target_id": 1856176,
+        "id": 2934392,
+        "camera_id": 238467
+    }, {
+        "last_sent_at": "2014-10-12T19:07:53Z",
+        "target_id": 1111232,
+        "id": 1753722,
+        "camera_id": 238467
+    }
+    ],
+    "schedules": [{
+        "override_reason": "iphone",
+        "override_state": true,
+        "key": "notify.enabled",
+        "camera_id": 238467,
+        "geofencing_enabled": false,
+        "overridden_at": 1401663693,
+        "enabled": false,
+        "id": 435659,
+        "periods": []
+    }, {
+        "override_reason": "web",
+        "override_state": true,
+        "key": "streaming.enabled",
+        "camera_id": 238467,
+        "geofencing_enabled": false,
+        "overridden_at": 1401797424,
+        "enabled": false,
+        "id": 435603,
+        "periods": []
+    }
+    ],
+    "nexus_api_url_base": "https://nexusapi.dropcam.com",
+    "is_public": false,
+    "is_sound_notify_enabled": false,
+    "is_online": true,
+    "download_host": "oculus33-vir.dropcam.com:80",
+    "recording_add_on_title": "Live Streaming",
+    "name": "DC-NY-34-01",
+    "dptz_state": "1,1,0.5,0.5",
+    "is_motion_notify_enabled": true,
+    "is_hd_video_enabled": true,
+    "audio_input_gain_level": 0.75,
+    "nest_structure_id": null,
+    "is_sound_detection_enabled": false,
+    "is_labs_active": false,
+    "trial_days_left": 0,
+    "hours_of_recording_max": 0.0,
+    "is_nest_away_streaming_enabled": false,
+    "where": "",
+    "nest_structure_name": null,
+    "timezone_options": [["Pacific/Honolulu", "Pacific/Honolulu HST"], ["America/Anchorage", "America/Anchorage AKDT"], ["America/Los_Angeles", "America/Los Angeles PDT"], ["America/Denver", "America/Denver MDT"], ["America/Phoenix", "America/Phoenix MST"], ["America/Chicago", "America/Chicago CDT"], ["America/New_York", "America/New York EDT"]],
+    "is_offline_notify_enabled": true
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="chrome=1,requiresActiveX=true,IE=edge">
+  
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>DC-NY-34-02 | Dropcam</title>
+  <meta name="description" content=""/>
+  <!--[if lt IE 8]><link href="//d2j1x2hflioiqf.cloudfront.net/css/ie.css?60914bd8f2" media="screen, projection" rel="stylesheet" type="text/css"><![endif]-->
+
+  <meta name="referrer" content="origin">
+
+  <script type="text/javascript" src="//d2j1x2hflioiqf.cloudfront.net/app/static/js-built/lib/swfobject.js?7106d84686"></script>
+  <script type="text/javascript">
+    (function() {
+      var fnc = function() { window.playerLoaded = true; };
+      var evt = 'playerload';
+      if (document.addEventListener) {  // W3C DOM
+        document.addEventListener(evt, fnc,false);
+      } else if (document.attachEvent) { // IE DOM
+         document.attachEvent('on' + evt, fnc);
+      } else { // Traditional
+        if (typeof document[evt] === 'function'){
+            fnc = (function(f1,f2){
+                return function(){
+                    f1.apply(this, arguments);
+                    f2.apply(this, arguments);
+                }
+            })(document[evt], fnc);
+        }
+        document[evt] = fnc;
+      }
+    })();
+    swfobject.registerObject("video_flash", "11.1.0", "/flash/expressInstall.swf", function(e) {
+      if (!e.success) {
+        $('#altContent img').prop('src', 'https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif');
+        var controls = document.getElementsByClassName('controls');
+        for (var i = 0; i < controls.length; i++) {
+          controls[i].style.display = 'none';
+        }
+      }
+    });
+  </script>
+
+
+  
+  <link rel="stylesheet" type="text/css" href="//d2j1x2hflioiqf.cloudfront.net/app/static/css-built/dc.css?c8097c8bfe" />
+  <link rel="stylesheet" type="text/css" href="//d2j1x2hflioiqf.cloudfront.net/app/static/css-built/viewer.css?9e7d9d2607" />
+
+
+  
+    <meta property="og:title" content="Dropcam" />
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="https://d2ouawgq7rgimz.cloudfront.net/press/DropCam-PRO_Front_72dpi.jpg" />
+    <meta property="og:url" content="https://www.dropcam.com/" />
+    <meta property="og:site_name" content="Dropcam" />
+    <meta property="fb:admins" content="212407"/>
+    <meta property="fb:app_id" content="260468840639200"/>
+  
+  
+  <meta name="apple-itunes-app" content="app-id=351175162, app-argument=x-dc:///viewer?uuid=88677951976f4bb7b94cd35b358a6788" />
+
+  
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7798973-1']);
+    _gaq.push(['_setDomainName', 'dropcam.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_setSiteSpeedSampleRate', 50]);
+
+    
+      _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <link rel="shortcut icon" href="/favicon-2013.ico" />
+  
+    <link rel="canonical" href="" />
+  
+</head>
+
+<body id="viewer-body" class="no-ar">
+  <div class="container">
+    
+
+
+
+
+
+
+
+
+
+<div class="user_task_bar">
+  	<a class="left" href="/">
+      <img alt="Dropcam Homepage" id="dropcam-logo" class="webapp-icons-dropcam_icon" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" title="Dropcam" />
+    </a>
+
+    <div class="left">
+    	<ul class="nav user_nav">
+        <li class="navbar-nav dropdown" id="menu" title="Main Menu">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><div class="webapp-icons-menu"></div></a>
+          <div class="new_clip_count"></div>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            <li class="">
+              <a  class="" href="/app/cameras">
+                <div class="icon webapp-icons-my_cameras"></div>
+                Home
+              </a>
+            </li>
+            <li class="">
+              <a class="" href="/app/clips">
+                <div class="icon webapp-icons-my_clips"></div>
+                <span class="clips_label">Saved Clips</span>
+                <div class="new_clip_count"></div>
+              </a>
+            </li>
+            <li>
+              <a href="/settings">
+                <div class="icon webapp-icons-account_profile"></div>Account
+              </a>
+            </li>
+            <li class="">
+              <a class="" href="/live-demos">
+                <div class="icon webapp-icons-featured_cameras"></div>Live Demos
+              </a>
+            </li>
+            
+              <li>
+                <a href="/app/wwn/connect" class="connect-to-nest" rel="nofollow">
+                  <div class="icon webapp-icons-wwn"></div>Connect with Nest
+                </a>
+              </li>
+            <li>
+              <a href="/logout">
+                <div class="icon webapp-icons-log_out"></div>Log Out
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        
+    <li class="navbar-nav dropdown current" id="cameras">
+    <a data-toggle="dropdown" href="#" title="Camera Menu">
+      DC-NY-34-02
+      <div class="icon webapp-icons-title_expand"></div>
+    </a>
+
+    <div class="camera-streaming-switch">
+      <a href="#" class="btn-camera-switch streaming-enabled hide" title="Turn Camera Off">
+        <div class="webapp-icons-switch_on"></div>
+      </a>
+      <a href="#" class="btn-camera-switch streaming-disabled hide" title="Turn Camera On">
+        <div class="webapp-icons-switch_off"></div>
+      </a>
+    </div>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+          <li class="camera-list">
+            <a href="/watch/5b7f0da53c1343798fbafa3f0bfc4c9c">
+              <div class="img-container">
+                  <img src="https://nexusapi.dropcam.com/get_image?width=140&amp;uuid=5b7f0da53c1343798fbafa3f0bfc4c9c" title="thumbnail" class="thumbnail">
+              </div>
+              <div class="title">
+                <span>DC-NY-34-01</span>
+              </div>
+            </a>
+          </li>
+          <li class="camera-list">
+            <a href="/watch/764925a184a04391b03bfe0c287b18b6">
+              <div class="img-container">
+                  <img src="https://nexusapi.dropcam.com/get_image?width=140&amp;uuid=764925a184a04391b03bfe0c287b18b6" title="thumbnail" class="thumbnail">
+              </div>
+              <div class="title">
+                <span>DC-NY-35-01</span>
+              </div>
+            </a>
+          </li>
+          <li class="camera-list">
+            <a href="/watch/95c8125be3fd45908aa994f70e7e6a11">
+              <div class="img-container">
+                  <img src="https://nexusapi.dropcam.com/get_image?width=140&amp;uuid=95c8125be3fd45908aa994f70e7e6a11" title="thumbnail" class="thumbnail">
+              </div>
+              <div class="title">
+                <span>DC-NY-35-02</span>
+              </div>
+            </a>
+          </li>
+    </ul>
+  </li>
+
+
+
+    	</ul>
+    </div>
+
+  <div class="right user_links">
+    <ul class="nav">
+      
+
+
+    <li>
+      <a href="#" class="btn-settings" title="Camera Settings">
+        <div class="webapp-icons-settings"></div> Settings
+      </a>
+    </li>
+    <li>
+      <a href="#" class="btn-settings" data-tab="alerts" title="Camera Alerts">
+        <div class="webapp-icons-subscription_motionalerts"></div> Alerts
+      </a>
+    </li>
+    <li>
+      <a href="#" class="btn-settings" data-tab="sharing" title="Sharing">
+        <div class="webapp-icons-subscription_sharing"></div> Sharing
+      </a>
+    </li>
+
+    </ul>
+  </div>
+</div>
+
+<div class="clear"></div>
+
+<div class="message-bar" ng-controller="MessageBarController">
+  <ul>
+    <li ng-repeat="message in messages">
+      <div class="message message-{{message.level}} " ng-class="{'message-dismissable':(!!message.close)}" id="message-{{message.id}}">
+        <div class="text" ng-style="message.textStyle" ng-click="click(message)">
+          {{message.text}}
+        </div>
+        <div ng-bind-html="message.cta | unsafe" class="cta" ng-click="click(message)" ng-style="message.ctaStyle" ng-show="message.cta">
+        </div>
+        <div class="close" ng-click="dismiss(message)" ng-show="message.close">
+          &times;
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="user_content">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+  .video {
+    width: 950px;
+    height: 535px;
+    top: 0px;
+  }
+</style>
+
+<div class="activities">
+</div>
+
+<div class="viewer">
+  <div class="playback">
+    <div class="video">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="video_flash" name="video_flash">
+        <param name="movie" value="//cdn1.dropcam.com/flash/video.swf?13fb115c2a">
+        <param name="wmode" value="opaque">
+        <param name="bgcolor" value="#e3eaed">
+        <param name="allowFullScreen" value="true">
+        <param name="allowScriptAccess" value="always">
+        <param name="flashvars" value="uuid=88677951976f4bb7b94cd35b358a6788&amp;cameraScale=1.0&amp;cameraCenterX=0.5&amp;cameraCenterY=0.5&amp;sessionToken=f17a5a2a20bb4c6abe6da18e44482486091d1326c656f05442236540e2a659c9cf9a891b&amp;liveStreamHost=oculus116-vir.dropcam.com%3A1935&amp;recordedStreamHost=oculus116-vir.dropcam.com%3A1935&amp;talkbackStreamHost=stream-alfa.dropcam.com%3A443&amp;nexusApiUrlBase=https%3A//nexusapi.dropcam.com&amp;videoAspectRatio=1.77570093458&amp;videoWidth=950&amp;enableZoom=true&amp;maxZoom=8&amp;enableFullscreen=true">
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="//cdn1.dropcam.com/flash/video.swf?13fb115c2a" width="100%" height="100%">
+          <param name="wmode" value="opaque">
+          <param name="bgcolor" value="#e3eaed">
+          <param name="allowFullScreen" value="true">
+          <param name="allowScriptAccess" value="always">
+          <param name="flashvars" value="uuid=88677951976f4bb7b94cd35b358a6788&amp;cameraScale=1.0&amp;cameraCenterX=0.5&amp;cameraCenterY=0.5&amp;sessionToken=f17a5a2a20bb4c6abe6da18e44482486091d1326c656f05442236540e2a659c9cf9a891b&amp;liveStreamHost=oculus116-vir.dropcam.com%3A1935&amp;recordedStreamHost=oculus116-vir.dropcam.com%3A1935&amp;talkbackStreamHost=stream-alfa.dropcam.com%3A443&amp;nexusApiUrlBase=https%3A//nexusapi.dropcam.com&amp;videoAspectRatio=1.77570093458&amp;videoWidth=950&amp;enableZoom=true&amp;maxZoom=8">
+        <!--<![endif]-->
+          <div id="altContent">
+            <a target="_blank" href="http://www.adobe.com/go/getflashplayer" rel="nofollow">
+              <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" alt="Get Adobe Flash player" />
+            </a>
+          </div>
+        <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+      <canvas id="region-canvas"></canvas>
+    </div>
+    <div id="state-overlay" style="">
+      <h1></h1>
+      <div></div>
+      <span class="indicator"></span>
+    </div>
+
+    <div id="zoom-control" class="left-cluster controls">
+      <div class="zoom-display"></div>
+      <button class="zoom-in">&nbsp;<span></span></button>
+      <div class="zoom-slider">&nbsp;<span></span></div>
+      <button class="zoom-out">&nbsp;<span></span></button>
+      <button class="zoom-enhance">&nbsp;<span></span></button>
+      <button class="zoom-reset">&nbsp;<span></span></button>
+    </div>
+    <div class="make-clip-overlay"></div>
+    <div id="bottom-control" class="bottom-cluster controls">
+      <div style="position: relative">
+        <div class="bottom-left-cluster">
+            <button class="talk" id="talk">&nbsp;<span></span></button>
+        </div>
+
+        <div class="bottom-center-cluster">
+          <button class="timestamp" id="timestamp">
+            &nbsp;<span></span>
+            <span class="date"></span>
+            <span class="time">Loading&hellip;</span>
+          </button>
+          <button class="live">Live</button>
+        </div>
+
+        <div class="bottom-right-cluster">
+          <button class="speaker">&nbsp;<span></span></button>
+          <button class="fullscreen">&nbsp;<span></span></button>
+          <button class="toggle-cvr">&nbsp;<span></span></button>
+          <div class="volume-slider">&nbsp;<span></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="center-cluster controls"><span></span></div>
+    <div class="talkback-cluster controls"><span></span></div>
+    <div class="signal-cluster controls"></div>
+
+    <div id="category-toast">
+      <div class="category-toast-container">
+        <div class="category-label"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="no-dvr v2" >
+    <div class="view_range"></div>
+    <div class="scroll_earlier"></div>
+    <div class="scroll_later"></div>
+    <div class="no-dvr-buttons">
+      <a href="/cloud_recording">Learn More</a>
+      <button>Add Cloud Recording</button>
+    </div>
+    <h4>Dropcam is even better with Cloud Recording.</h4>
+    <dl class="review_video">
+      <dt>Review footage</dt>
+      <dd>from the past week or month</dd>
+    </dl>
+    <dl class="save_clips">
+      <dt>Save and share clips</dt>
+      <dd>of moments you want to remember</dd>
+    </dl>
+        <dl class="custom_alerts">
+          <dt>Receive customized alerts</dt>
+          <dd>for the activity you want to see</dd>
+        </dl>
+  </div>
+
+
+  <div class="activity-details"></div>
+
+  <div class="tooltip-container"></div>
+  <div class="viewer-toggle">
+  <span></span>
+  <a href="#" target="_blank"></a>
+</div>
+
+</div>
+
+<div class="clear"></div>
+
+<div class="fancybox-container" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1101;"></div>
+
+<script type="text/template" id="camera_settings_template">
+  <div class="close">
+    Close &nbsp;<strong>&times;</strong>
+  </div>
+  <div class="tile settings_container" id="settings_<?= uuid ?>_tabs">
+    <ul class="user_task_bar nav user_nav">
+      <li class="first"><a href="#settings_<?= uuid ?>_tab_settings"><img class="settings" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" /><br />Settings</a></li>
+      <li><a href="#settings_<?= uuid ?>_tab_alerts"><img class="alerts" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" /><br />Alerts</a></li>
+      <li><a href="#settings_<?= uuid ?>_tab_invite"><img class="invite" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" /><br />Sharing</a></li>
+      <li class="last_tab"><a href="#settings_<?= uuid ?>_tab_sharing"><img class="sharing" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" /><br />Public</a></li>
+    </ul>
+    <div class="tabs-dimmer"></div>
+
+    <div class="settings_content_scroll_container">
+      <div class="settings_content settings" id="settings_<?= uuid ?>_tab_settings"></div>
+      <div class="settings_content alerts" id="settings_<?= uuid ?>_tab_alerts"></div>
+      <div class="settings_content invite" id="settings_<?= uuid ?>_tab_invite"></div>
+      <div class="settings_content sharing" id="settings_<?= uuid ?>_tab_sharing"></div>
+    </div>
+  </div>
+</script>
+
+
+<script type="text/template" id="settings_settings_template">
+  <div class="dimmer">
+  </div>
+  <div class="overlay light" id="location_schedule_info_<?= c.camera.uuid ?>_<?= c.tab ?>">
+  <form class="overlay_content">
+    <fieldset>
+      <h1>Location Scheduling</h1>
+
+      <div class="spacer"></div>
+
+      <div class="center">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/base2/drop-pin-map2.png" />
+      </div>
+      <div class="overlay-details">
+        <? if (c.camera.is_geofencing_enabled) { ?>
+          <? if (c.tab === 'general') { ?>
+          Your camera will be turned on based on the location of your mobile device.
+          <? } else { ?>
+          You will receive alerts based on the location of your mobile device.
+          <? } ?>
+        <? } else { ?>
+          <? if (c.tab === 'general') { ?>
+          Set when your camera should turn off using the location of your mobile device.
+          <? } else { ?>
+          Set when you receive alerts using the location of your mobile device.
+          <? } ?>
+        <? } ?>
+      </div>
+      <div class="clear"></div>
+      <div class="spacer"></div>
+      <ul class="steps-list">
+        <li>
+          <div class="step-details"><?= c.camera.is_geofencing_enabled ? 'Disabling' : 'Enabling' ?> location scheduling</div>
+          <div class="clear" />
+        </li>
+        <? if (c.camera.is_geofencing_enabled) { ?>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-1.png" />
+          <div class="step-details">
+            <span>On your mobile device, launch the Dropcam app</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-2.png" />
+          <div class="step-details">
+            <span>Go to your camera's settings</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-3.png" />
+          <div class="step-details">
+            <span>Turn off location scheduling</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <? } else { ?>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-1.png" />
+          <div class="step-details">
+            <span>Install our app on your mobile device</span>
+            <a href="http://itunes.apple.com/us/app/dropcam/id351175162?mt=8" target="_blank"><img src="//d2j1x2hflioiqf.cloudfront.net/images/marketing/landing-page/apple.png" style="height: 32px" /></a>
+            <a href="https://play.google.com/store/apps/details?id=com.dropcam.android" target="_blank"><img src="//d2j1x2hflioiqf.cloudfront.net/images/marketing/landing-page/google.png" style="height: 32px" /></a>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-2.png" />
+          <div class="step-details">
+            <span>From the app, go to your camera's settings</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-3.png" />
+          <div class="step-details">
+            <span>Turn on location scheduling and enter a location</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <? } ?>
+      </ul>
+
+    </fieldset>
+
+    <div class="overlay_footer">
+      <button class="close primary last-button single-button">Done</button>
+    </div>
+  </form>
+</div>
+
+  <div class="schedule_edit_modal_container"></div>
+
+  <div class="overlay light" id="wifi_<?= c.camera.uuid ?>">
+    <form class="invite overlay_content">
+      <input type="hidden" name="camera_uuid" value="<?= c.camera.uuid ?>" />
+      <fieldset>
+        <h1>Change Wi-Fi Network</h1>
+
+        <div class="overlay-details">
+          To connect your camera to a different Wi-Fi network, do the following:
+        </div>
+
+        <ul class="steps-list">
+          <li>
+            <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-1.png" />
+            <div class="step-details">
+              <span>Plug your camera into your computer using the provided USB cable (detach from power adapter).</span>
+            </div>
+            <div class="clear" />
+          </li>
+          <li>
+            <img src="//d2j1x2hflioiqf.cloudfront.net/images/base2/DC3_to_computer_sm.png" style="margin-left:25px" />
+          </li>
+          <li>
+            <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-2.png" />
+            <div class="step-details">
+              <span>Click the launch icon (<img src="/favicon.ico" style="width:16px; margin-bottom:-4px" />) to begin the process.</span>
+            </div>
+            <div class="clear" />
+          </li>
+          <li>
+            <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-3.png" />
+            <div class="step-details">
+              <span>Follow the steps to change your Wi-Fi network.</span>
+            </div>
+            <div class="clear" />
+          </li>
+          <li>
+            <div class="step-details">
+              <span><a href="/help/setup" target="_blank">Setup Help</a></span>
+            </div>
+            <div class="clear" />
+          </li>
+        </ul>
+      </fieldset>
+      <div class="overlay_footer">
+        <div>
+          <button class="close last-button single-button">Okay</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="overlay light" id="details_<?= c.camera.uuid ?>">
+    <form class="overlay_content">
+      <input type="hidden" name="uuid" value="<?= c.camera.uuid ?>" />
+      <fieldset>
+        <h1>Camera Details</h1>
+
+        <div class="settings-form">
+          <div class="row">
+            <div class="setting-title">Where</div>
+            <div class="setting-value">
+              <select name="nest_where_id" id="nest_where_id" class="styled">
+              <?
+                var
+                  idx,
+                  default_where = 'custom',
+                  where;
+
+                for (idx = 0; idx < c.camera.where_options.length; ++idx) {
+                  if (c.camera.where_options[idx].nest_where_id === c.camera.where) {
+                    default_where = c.camera.where;
+                    break;
+                  }
+                }
+
+                for (idx = 0; idx < c.camera.where_options.length; ++idx) {
+                  where = c.camera.where_options[idx];
+              ?>
+                <option value="<?= where.nest_where_id ?>" <?= default_where === where.nest_where_id ? 'selected' : '' ?>><?- where.where ?></option>
+              <? } ?>
+                <option value="custom" <?= default_where === 'custom' ? 'selected' : '' ?>>Custom...</option>
+              </select>
+            </div>
+          </div>
+          <div class="where_container" <?= !c.camera.where || c.camera.where === 'custom' ? '' : 'style="display:none"' ?>>
+            <div class="row">
+              <div class="setting-value">
+                <input type="text" id="where" name="where" class="styled" value="" placeholder="Location..." />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="setting-title">Label</div>
+            <div class="setting-value">
+              <input type="text" id="title" name="title" class="styled" value="<?= c.camera.title || ''?>" />
+            </div>
+          </div>
+          <div class="divider-row"></div>
+          <div class="row">
+            <div class="setting-title">Time Zone</div>
+            <div class="setting-value">
+              <select name="timezone" class="styled">
+              <?
+                for (var i = 0; i < c.camera.timezone_options.length; i++) {
+                  var value = c.camera.timezone_options[i][0],
+                      label = c.camera.timezone_options[i][1];
+              ?>
+                <option value="<?= value ?>" <?= c.camera.timezone == value ? 'selected' : '' ?>><?- label ?></option>
+              <? } ?>
+              </select>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <div class="overlay_footer">
+        <button class="close_overlay">Cancel</button>
+        <button class="save_details primary last-button">Save</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="overlay light" id="structures_<?= c.camera.uuid ?>">
+    <form class="overlay_content">
+      <input type="hidden" name="uuid" value="<?= c.camera.uuid ?>" />
+      <fieldset>
+        <h3>Nest Home</h3>
+
+        <p>This camera is located at:</p>
+
+        <div class="nest_structures settings_list clickable settings-dl"></div>
+
+      </fieldset>
+      <div class="overlay_footer">
+        <button class="close_overlay">Cancel</button>
+        <button class="save_structure primary last-button">Save</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="settings-dl">
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title"><?- c.camera.name ?></div>
+      <div class="setting-value">
+        <a href="#" class="open_overlay" data-target="details_<?= c.camera.uuid ?>">
+          <img class="icon edit hover" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="setting-note"><?= c.camera.serial_number ?></div>
+    </div>
+
+    <? if (_.contains(c.camera.capabilities, 'streaming.start-stop')) { ?>
+    <div class="divider-row"></div>
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">Camera</div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<?= c.camera.is_streaming_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="streaming.enabled"></div>
+      </div>
+    </div>
+    <? } ?>
+
+    <div class="divider-row"></div>
+
+    <? if (_.contains(c.camera.capabilities, 'statusled')) { ?>
+    <div class="row">
+      <div class="setting-title">Status Light</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<?= c.camera.is_status_led_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="statusled.enabled"></div>
+      </div>
+    </div>
+    <? } ?>
+
+    <? if (_.contains(c.camera.capabilities, 'streaming.params')) { ?>
+    <div class="row">
+      <div class="setting-title">HD Video</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<?= c.camera.is_hd_video_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="streaming.params.hd"></div>      
+      </div>
+    </div>
+    <? } ?>
+
+    <? if (_.contains(c.camera.capabilities, 'irled')) { ?>
+    <div class="row">
+      <div class="setting-title">Night Vision</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<? if (c.camera.irled_state === 'always_on') { ?> on webapp-icons-switch_on<? } else if (c.camera.irled_state === 'auto_on') { ?> disabled<?}?>" style="float:right" data-key="irled.state"></div>
+
+      <span class="irled_auto" style="margin-right:8px;">
+        <input type="checkbox" class="styled_checkbox" id="irled_<?= c.camera.uuid ?>" data-key="irled.state" <?= c.camera.irled_state == 'auto_on' ? 'checked' : ''?> />
+        <label for="irled_<?= c.camera.uuid ?>" class="light irled_auto" style="margin-right: 0.5em">
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+        </label>
+        <span class="label <?= c.camera.irled_state != 'auto_on' ? 'disabled' : ''?>" data-key="irled.state">Auto</span>
+      </span>
+      </div>
+    </div>
+    <? } ?>
+
+    <? if (_.contains(c.camera.capabilities, 'video.flip')) { ?>
+    <div class="row">
+      <div class="setting-title">Rotate Image 180&deg;</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <span class="video_flipped">
+          <input type="checkbox"
+                 class="styled_checkbox"
+                 id="video_flipped_<?= c.camera.uuid ?>"
+                 <?= c.camera.is_video_flipped ? 'checked' : '' ?> />
+          <label for="video_flipped_<?= c.camera.uuid ?>" class="light video_flipped" style="display: inline-block;">
+            <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+          </label>
+        </span>
+      </div>
+    </div>
+    <? } ?>
+
+    <div class="divider-row"></div>
+
+    <? if (_.contains(c.camera.capabilities, 'audio.microphone')) { ?>
+    <div class="row">
+      <div class="setting-title">Audio</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<?= c.camera.is_audio_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="audio.enabled"></div>
+      </div>
+    </div>
+
+    <div class="group <?= c.camera.is_audio_enabled ? 'on' : 'off' ?>" data-key="audio.enabled">
+      <div class="group_on">
+
+        <div class="row">
+          <div class="setting-title">Mic Sensitivity</div>
+          <div class="setting-value">
+            <div style="width:110px; padding: 4px 0 0 0; position:absolute; right: 25px;">
+              <strong style="position: absolute; top: -1px; left: -16px;">&ndash;</strong>
+              <div class="slider" data-value="<?= c.camera.audio_input_gain_level * 100 ?>" data-key="audio.inputgainlevel"></div>
+              <strong style="position: absolute; top: -1px; right: -16px; top:0">+</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="group_off">
+        <div class="row">
+          <div class="setting-note">Your camera is muted.</div>
+        </div>
+      </div>
+    </div>
+    <? } ?>
+
+    <div class="divider-row"></div>
+
+    <div class="row">
+      <div class="setting-title">Time Schedule</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush non-property streaming_schedules_enabled webapp-icons-switch_off<?= c.camera.is_streaming_scheduling_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="streaming_schedule.enabled"></div>
+      </div>
+    </div>
+
+    <div class="group <?= c.camera.is_streaming_scheduling_enabled ? 'on' : 'off' ?> explanation" data-key="streaming_schedule.enabled">
+      <div class="group_on">
+        <div class="row">
+          <div class="rule"></div>
+          <div class="setting-title">Turn OFF every...</div>
+          <div class="setting-value">
+            <img src="/images/spacer.png" class="icon add add_streaming_schedule">
+          </div>
+        </div>
+
+        <div class="streaming_schedules_container"></div>
+
+        <div class="divider-row"></div>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="setting-title">Location Schedule</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="geo_fence_status <?= c.camera.is_streaming_geofencing_enabled ? '' : 'disabled' ?>">
+          <span><?= c.camera.is_streaming_geofencing_enabled ? 'Enabled' : 'Disabled' ?></span>
+          <img class="geo_fence_info i icon open_overlay" data-target="location_schedule_info_<?= c.camera.uuid ?>_<?= c.tab ?>" src="/images/spacer.png">
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <? if (DC.util.getConfig('userHasNestOauth')) { ?>
+    <div class="row">
+      <div class="setting-title">Nest Home + Away</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush is_nest_away_streaming_enabled webapp-icons-switch_off<?= c.camera.is_nest_away_streaming_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="nest.away.streaming.enabled"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="setting-note">Set your camera to turn on and off when you manually set Home and Away on Nest.</div>
+    </div>
+    <? } ?>
+
+    <div class="divider-row"></div>
+
+    <div class="row">
+      <div class="setting-title">Dropcam CVR</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <span style="position: relative; left: -2px; top: 3px">
+          <? if (c.camera.recording_add_on_title) { ?>
+            <?- c.camera.recording_add_on_title ?>
+          <? } else if (c.camera.is_trial_mode && c.camera.campaign) { ?>
+            <?- c.camera.campaign.title ?>
+          <? } else { ?>
+            Live Streaming
+          <? } ?>
+        </span>
+        <a href="/plans/select">
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="icon edit" />
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="setting-title">Motion Detection</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<?= c.camera.is_motion_detection_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="video.motiondetector.enabled"></div>
+      </div>
+    </div>
+
+    <? if (_.contains(c.camera.capabilities, 'audio.microphone')) { ?>
+    <div class="row">
+      <div class="setting-title">Sound Detection</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off<?= c.camera.is_sound_detection_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="audio.sounddetector.enabled"></div>
+      </div>
+    </div>
+    <? } ?>
+
+    <div class="divider-row"></div>
+
+    <div class="row">
+      <div class="setting-title">Wi-Fi Network</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <span style="position:relative; left: -2px; top: 3px; max-width: 90px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; display: inline-block;">
+        <? if (c.camera.setting) { ?>
+          <?- c.camera.setting.ssid ?>
+        <? } else { ?>
+          &nbsp;
+        <? } ?>
+      </span>
+      <? if (c.camera.type == 5 || c.camera.type == 6) { ?>
+        <a href="#" class="open_overlay" data-target="wifi_<?= c.camera.uuid ?>">
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="icon edit" />
+        </a>
+      <? } else { ?>
+        <a href="<?= c.camera.setup_wireless_url ?>" target="_blank">
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="icon edit" />
+        </a>
+      <? } ?>
+      </div>
+    </div>
+
+
+
+    <? if (DC.util.getConfig('userHasNestOauth')) { ?>
+    <div class="divider-row"></div>
+    <div class="row">
+      <div class="setting-title">Nest Home</div>
+      <div class="rule"></div>
+      <div class="setting-value">
+        <a href="#" class="open_overlay" data-target="structures_<?= c.camera.uuid ?>">
+          <img class="icon edit hover" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="setting-note">This camera is located at <?- c.camera.nest_structure_name ?></div>
+    </div>
+    <? } ?>
+
+  </div>
+
+</script>
+
+<script type="text/template" id="nest_structure_list_item">
+  <div class="row">
+    <div class="rule"></div>
+    <div class="setting-title">
+      <label for='structure_<?=nest_structure_id?>'><?- name ?></label>
+    </div>
+    <div class="setting-value">
+      <input id="structure_<?=nest_structure_id?>" type='radio' name='nest_structure' value='<?= nest_structure_id ?>' <?= checked ? 'checked="checked"' : '' ?> />
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="settings_alerts_template">
+  <div class="dimmer">
+  </div>
+  <div class="overlay light" id="add_notifications_<?= c.camera.uuid ?>">
+  <form class="overlay_content">
+    <fieldset>
+      <h1>Add Notification Target</h1>
+
+      <div class="settings-form">
+        <div class="row">
+          <div class="setting-title">Email</div>
+          <div class="setting-value">
+            <input class="styled new_notification_target" name="email" type="text" value="" />    
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div class="overlay_footer">
+      <button class="close_overlay">Cancel</button>
+      <button class="add_notification_target primary last-button">Add</button>
+    </div>
+  </form>
+</div>
+
+  <div class="overlay light" id="location_schedule_info_<?= c.camera.uuid ?>_<?= c.tab ?>">
+  <form class="overlay_content">
+    <fieldset>
+      <h1>Location Scheduling</h1>
+
+      <div class="spacer"></div>
+
+      <div class="center">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/base2/drop-pin-map2.png" />
+      </div>
+      <div class="overlay-details">
+        <? if (c.camera.is_geofencing_enabled) { ?>
+          <? if (c.tab === 'general') { ?>
+          Your camera will be turned on based on the location of your mobile device.
+          <? } else { ?>
+          You will receive alerts based on the location of your mobile device.
+          <? } ?>
+        <? } else { ?>
+          <? if (c.tab === 'general') { ?>
+          Set when your camera should turn off using the location of your mobile device.
+          <? } else { ?>
+          Set when you receive alerts using the location of your mobile device.
+          <? } ?>
+        <? } ?>
+      </div>
+      <div class="clear"></div>
+      <div class="spacer"></div>
+      <ul class="steps-list">
+        <li>
+          <div class="step-details"><?= c.camera.is_geofencing_enabled ? 'Disabling' : 'Enabling' ?> location scheduling</div>
+          <div class="clear" />
+        </li>
+        <? if (c.camera.is_geofencing_enabled) { ?>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-1.png" />
+          <div class="step-details">
+            <span>On your mobile device, launch the Dropcam app</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-2.png" />
+          <div class="step-details">
+            <span>Go to your camera's settings</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-3.png" />
+          <div class="step-details">
+            <span>Turn off location scheduling</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <? } else { ?>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-1.png" />
+          <div class="step-details">
+            <span>Install our app on your mobile device</span>
+            <a href="http://itunes.apple.com/us/app/dropcam/id351175162?mt=8" target="_blank"><img src="//d2j1x2hflioiqf.cloudfront.net/images/marketing/landing-page/apple.png" style="height: 32px" /></a>
+            <a href="https://play.google.com/store/apps/details?id=com.dropcam.android" target="_blank"><img src="//d2j1x2hflioiqf.cloudfront.net/images/marketing/landing-page/google.png" style="height: 32px" /></a>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-2.png" />
+          <div class="step-details">
+            <span>From the app, go to your camera's settings</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <li>
+          <img class="bullet-image" width="20px" height="20px" src="//d2j1x2hflioiqf.cloudfront.net/images/base2/step-3.png" />
+          <div class="step-details">
+            <span>Turn on location scheduling and enter a location</span>
+          </div>
+          <div class="clear" />
+        </li>
+        <? } ?>
+      </ul>
+
+    </fieldset>
+
+    <div class="overlay_footer">
+      <button class="close primary last-button single-button">Done</button>
+    </div>
+  </form>
+</div>
+
+  <div class="schedule_edit_modal_container"></div>
+
+  <div class="settings-dl">
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">Alerts</div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off <?= c.camera.are_notifications_enabled ? 'on webapp-icons-switch_on' : '' ?>" data-key="notify.enabled"></div>
+      </div>
+    </div>
+    <div class="group <?= c.camera.are_notifications_enabled ? 'on' : 'off' ?>" data-key="notify.enabled">
+      <div class="group_off">
+        <div class="row">
+          <div class="setting-note">You will not receive any event alerts.</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="setting-title">Notify me of:</div>
+    </div>
+    <div class="row">
+      <div class="notify-group">
+        <div class="notify-sub">
+          <input type="checkbox" class="motion_notification styled_checkbox" id="motion_notification" <?= c.camera.is_motion_notify_enabled ? 'checked' : '' ?> data-key="notify.motion.enabled" />
+          <label for="motion_notification" class="light">
+            <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+          </label>
+          <span class="notifcation-type-name">Motion</span>
+        </div>
+        <? if (_.contains(c.camera.capabilities, 'audio.microphone')) { ?>
+            <div class="notify-sub">
+              <input type="checkbox" class="sound_notification styled_checkbox" id="sound_notification" <?= c.camera.is_sound_notify_enabled ? 'checked' : '' ?> data-key="notify.sound.enabled" />
+              <label for="sound_notification" class="light">
+                <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+              </label>
+              <span class="notifcation-type-name">Sound</span>
+            </div>
+        <? } ?>
+        <div class="notify-sub">
+          <input type="checkbox" class="offline_notification styled_checkbox" id="offline_notification" <?= c.camera.is_offline_notify_enabled ? 'checked' : '' ?> data-key="notify.offline.enabled" />
+          <label for="offline_notification" class="light">
+            <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+          </label>
+          <span class="notifcation-type-name">Offline</span>
+        </div>
+      </div>
+    </div>
+    <div class="divider-row"></div>
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">Send alerts to</div>
+      <div class="setting-value">
+        <img src="/images/spacer.png" class="icon add add_notification_target_open open_overlay" data-target="add_notifications_<?= c.camera.uuid ?>">
+      </div>
+    </div>
+    <div class="notification_targets_container"></div>
+    <div class="divider-row"></div>
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">Time Schedule</div>
+      <div class="setting-value">
+        <div class="switch flush webapp-icons-switch_off non-property notify_schedules_enabled <?= c.camera.is_notify_scheduling_enabled ? 'on webapp-icons-switch_on' : '' ?>" data-key="notify_schedule.enabled"></div>
+      </div>
+    </div>
+    <div class="group <?= c.camera.is_notify_scheduling_enabled ? 'on' : 'off' ?>" data-key="notify_schedule.enabled">
+      <div class="group_on">
+        <div class="row">
+          <div class="rule"></div>
+          <div class="setting-title">Turn OFF every...</div>
+          <div class="setting-value">
+            <img src="/images/spacer.png" class="icon add add_alert_schedule">
+          </div>
+        </div>  
+        <div class="alert_schedules_container"></div>
+      </div>
+    </div>
+    <div class="divider-row"></div>
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">Location Schedule</div>
+      <div class="setting-value">
+        <span><?= c.camera.is_geofencing_enabled ? 'Enabled' : 'Disabled' ?></span>
+        <img class="geo_fence_info i icon open_overlay" data-target="location_schedule_info_<?= c.camera.uuid ?>_<?= c.tab ?>" src="/images/spacer.png">
+      </div>
+    </div>
+
+    <? if (DC.util.getConfig('userHasNestOauth')) { ?>
+    <div class="divider-row"></div>
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">Nest Home + Away</div>
+      <div class="setting-value">
+        <div class="switch flush is_nest_away_notify_enabled webapp-icons-switch_off<?= c.camera.is_nest_away_notify_enabled ? ' on webapp-icons-switch_on' : '' ?>" data-key="nest.away.notify.enabled"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="setting-note">Set Dropcam Alerts to stop and start when you manually set Home and Away on Nest.</div>
+    </div>
+    <? } ?>
+  </div>
+</script>
+
+<script type="text/template" id="settings_schedules_template">
+  <div class="schedules settings_list"></div>
+</script>
+
+<script type="text/template" id="schedule_template">
+  <div class="row">
+    <div class="rule"></div>
+    <div class="setting-title">
+      <div class="schedule_description" title="<?- c.days_description ?>"><?= c.days_description ?></div>
+      <div class="schedule_description" title="<?- c.time_description ?>"><?= c.time_description ?></div>
+    </div>
+    <div class="setting-value">
+      <img class="edit_schedule edit icon" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png"/>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="settings_notification_targets_template">
+  <div class="notification_targets settings_list"></div>
+</script>
+
+<script type="text/template" id="notification_target_template">
+  <?
+    var is_active = !!(c.cameraNotification),
+        is_deletable = c.notificationTarget.value != c.camera.owner_email;
+  ?>
+  <div class="row" data-id="<?= c.notificationTarget.id ?>">
+    <? if (is_deletable) { ?><div class="rule"></div><? } ?>
+    <div class="setting-title">
+      <input type="checkbox"
+           class="notification_target styled_checkbox"
+           id="notification_target_<?= c.camera.uuid ?>_<?= c.notificationTarget.id ?>"
+           <?= is_active ? 'checked' : '' ?>
+           data-type="<?= c.notificationTarget.type ?>"
+           data-value="<?= c.notificationTarget.value ?>" />
+      <label class="light" for="notification_target_<?= c.camera.uuid ?>_<?= c.notificationTarget.id ?>">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+      </label>
+      <span class="notification_target_name" title="<?- c.notificationTarget.name ?>"><?- c.notificationTarget.name ?></span>
+    </div>
+    <div class="setting-value">
+      <? if (is_deletable) { ?>
+      <img class="delete_notification_target delete icon" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png"/>
+      <? } ?>
+    </div>
+  </div>
+
+  <? if (is_deletable) { ?>
+    <div class="popup light delete_notification_target_confirmation">
+      <div class="popup_content">
+        <p class="heading"><strong>Are you sure you want to delete <?- c.notificationTarget.name ?> from your alert list?</strong></p>
+        <p>If you delete it from your list, it will no longer receive alerts.</p>
+      </div>
+      <div>
+        <button class="secondary close_popup">Cancel</button>
+        <button class="negative delete_notification_target_confirmed last-button" data-id="<?= c.notificationTarget.id ?>">Delete</button>
+      </div>
+    </div>
+  <? } ?>
+</script>
+
+<script type="text/template" id="settings_invite_template">
+  <div class="dimmer">
+  </div>
+  <div class="overlay">
+    <div class="light" style="height:100%">
+      <form class="invite overlay_content">
+        <input type="hidden" name="camera_uuid" value="<?= uuid ?>" />
+        <fieldset>
+          <div class="overlay-details" style="margin-top:20px;">
+            Invite people to view your camera
+          </div>
+
+          <div class="settings-form">
+            <div class="row">
+              <div class="setting-title">Contact email</div>
+              <div class="setting-value">
+                <input type="text" class="styled invite_email" name="email" placeholder="Email address..." />
+              </div>
+            </div>
+            <div class="row" style="height:300px;">
+              <div class="setting-title">Personal message</div>
+              <div class="setting-value">
+                <textarea class="styled note" name="note" style="height:280px">I want to share my Dropcam Video Stream with you!</textarea>    
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="overlay_footer">
+          <button class="close_overlay">Cancel</button>
+          <button class="send_invite primary last-button">Send Invite</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="invite_more_container">
+    <p style="font-size:22px;margin:20px -20px;">
+      Who has been invited to view your camera:
+    </p>
+
+    <div class="settings-dl">
+      <div class="subscriptions"></div>
+    </div>
+
+    <div class="span-4">
+      &nbsp;
+    </div>
+    <div class="invite_footer last">
+      <button class="invite_more primary">Invite More</button>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+  <div class="noone_invited_container">
+    <p style="font-size:22px;margin:20px -20px;">
+      Invite someone to view this camera...
+    </p>
+
+    <div class="invite_footer last">
+      <button class="invite_more primary">Send Invitation</button>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</script>
+
+<script type="text/template" id="camera_subscription_template">
+  <div class="subscription" data-uuid="<?= camera_uuid ?>">
+    <div class="row">
+      <div class="rule"></div>
+      <div class="setting-title">
+        <? if (is_blocked) { ?>
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led red" title="Blocked" />
+        <? } else if (is_pending) { ?>
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led gray" title="Pending" />
+        <? } else if (is_declined) { ?>
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led gray" title="Declined" />
+        <? } else { ?>
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led green" title="Shared" />
+        <? } ?>
+        <?= email ?>
+      </div>
+      <div class="setting-value">
+        <? if (is_pending) { ?>
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="resend icon" title="Resend" />
+        <? } ?>
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="expand icon" title="Toggle Options" />
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="delete icon delete_subscription" title="Delete" />
+      </div>
+    </div>
+    <div class="setting-note details">
+      <input type="checkbox" class="styled_checkbox subscription_block" id="subscription_<?= uuid ?>_block" data-id="<?= uuid ?>" <?= is_blocked ? 'checked' : '' ?> />
+      <label for="subscription_<?= uuid ?>_block" class="light">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+      </label>
+      <span class="label">
+        Block
+      </span>
+    </div>
+  </div>
+  <div class="popup light delete_subscription_confirmation">
+    <div class="popup_content">
+      <p class="heading"><strong>Are you sure you want to delete <?= email ?> from your invited list?</strong></p>
+      <p>If you delete this person from your list, they will no longer be able to access your camera's video.</p>
+    </div>
+    <div>
+      <button class="secondary close_popup">Cancel</button>
+      <button class="secondary delete_subscription_confirmed negative last-button" data-id="<?= uuid ?>">Delete</button>
+    </div>
+  </div>
+  <div class="popup light resend_invitation_confirmation">
+    <div class="popup_content">
+      <p class="heading"><strong>Do you want to resend your invitation to <?= email ?>?</strong></p>
+    </div>
+    <div>
+      <button class="close_popup">Cancel</button>
+      <button class="close_popup resend_invitation_confirmed primary last-button">OK</button>
+    </div>
+  </div>
+</script>
+
+
+<script type="text/template" id="settings_sharing_template">
+  <div class="dimmer" style="z-index:11;">
+  </div>
+
+  <div class="popup light private_confirm">
+    <h3>
+      Your camera is now private.
+    </h3>
+    <div>
+      <button class="close_popup" style="width: 100%">OK</button>
+    </div>
+  </div>
+
+  <div class="private_container overlay overlay_shown" style="display:<?= is_public ? 'none' : 'block' ?>">
+    
+
+
+    <div class="overlay-details" style="margin-top:20px">
+      Make your Dropcam Public
+    </div>
+
+    <fieldset>
+
+      <div class="sharing_info">
+        <p>
+          <strong>By making your camera public, you will be able to:</strong>
+        </p>
+        <ul>
+          <li>share your camera through social networks</li>
+          <li>share your camera with your email contacts</li>
+          <li>embed your camera on your own web site</li>
+        </ul>
+      </div>
+
+      <div class="terms_of_use">
+        <p>
+          <strong>You agree not to post User Content that:</strong>
+        </p>
+        <p>
+          may create a risk of harm, loss, physical or mental injury, emotional distress, death, disability, disfigurement, or physical or mental illness to you, to any other person, or to any animal;
+        </p>
+        <p>
+          may create a risk of any other loss or damage to any person or property; seeks to harm or exploit children by exposing them to inappropriate content, asking for personally identifiable details or otherwise;
+        </p>
+        <p>
+          may constitute or contribute to a crime or tort;
+        </p>
+        <p>
+          contains any information or content that we deem to be unlawful, harmful, abusive, racially or ethnically offensive, defamatory, infringing, invasive of personal privacy or publicity rights, harassing, humiliating to other people (publicly or otherwise), libelous, threatening, profane, or otherwise objectionable;
+        </p>
+        <p>
+          contains any information or content that is illegal (including, without limitation, the disclosure of insider information under securities law or of another party's trade secrets); or
+        </p>
+        <p>
+          contains any information or content that you do not have a right to make available under any law or under contractual or fiduciary relationships. You agree that any User Content that you post does not and will not violate third-party rights of any kind, including without limitation any Intellectual Property Rights (as defined below), rights of publicity and privacy. To the extent that your User Content contains music, you hereby represent that you are the owner of all the copyright rights, including without limitation the performance, mechanical, and sound recordings rights, with respect to each and every musical composition (including lyrics) and sound recording contained in such User Content and have the power to grant the license granted below. Dropcam reserves the right, but is not obligated, to reject and/or remove any User Content that Dropcam believes, in its sole discretion, violates these provisions.
+        </p>
+        <p>
+          Since we respect artist and content owner rights, it is Dropcam's policy to respond to alleged infringement notices that comply with the Digital Millennium Copyright Act of 1998 ("DMCA").
+        </p>
+        <p>
+          <a href="/tos" target="_blank">Full Terms of Use</a>
+        </p>
+      </div>
+
+      <div style="margin-top:-12px;">
+        <textarea class="description" placeholder="Camera Description..." style="height:60px"></textarea>
+      </div>
+
+      <div class="accepted">
+        <input type="checkbox" class="styled_checkbox" id="sharing_<?= uuid ?>_accepted" />
+        <label for="sharing_<?= uuid ?>_accepted" class="light">
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+        </label>
+        <span class="label">
+          YES! I have read and understood the terms of making my camera public.
+        </span>
+      </div>
+
+    </fieldset>
+
+    <div class="private_footer">
+      <button class="primary make_public disabled">Make Public</button>
+    </div>
+  </div>
+
+  <div class="public_container overlay overlay_shown" style="display:<?= is_public ? 'block' : 'none' ?>">
+    <fieldset class="light">
+      <h3>Short URL Link:</h3>
+      <button class="copy" data-copy="public_token" style="width:70px; float: right; margin-top: 6px; height: 25px;">Copy</button>
+      <span>dropc.am/p/</span>
+      <input type="text" class="styled selectable public_token" value="<?= public_token ?>" data-publictoken="<?= public_token ?>" data-prefix="http://dropc.am/p/" style="width:110px" />
+      <div class="unique" style="display:none; margin-top: 5px">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led green" title="Unique" /> This is a unique URL
+      </div>
+      <div class="nonunique" style="display:none; margin-top: 5px">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led red" title="Taken" /> This URL is taken
+      </div>
+      <div class="invalid" style="display:none; margin-top: 5px">
+        <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" class="led red" title="Unique" /> This is an invalid URL
+      </div>
+    </fieldset>
+    <div class="divider"></div>
+    <h3>Share on Social Networks:</h3>
+    <a href="#" class="facebook_anchor">
+      <div class="icon webapp-icons-facebook"></div>
+    </a>
+    &nbsp;
+    <a href="http://twitter.com/share?related=dropcam" data-url="http://dropc.am/p/<?= public_token ?>" data-counturl="https://www.dropcam.com/p/<?= public_token ?>" class="twitter_anchor">
+      <div class="icon webapp-icons-twitter"></div>
+    </a>
+    <div class="divider"></div>
+    <fieldset class="light">
+      <h3>Embed Video:</h3>
+      <button class="copy" data-copy="embed_code" style="width:70px; float:right; margin-top: 5px; height: 25px;">Copy</button>
+      <input type="text" class="styled selectable embed_code" value="" style="width:182px" />
+      <div style="margin-top: 5px">
+        <input type="checkbox" class="styled_checkbox embed_code_autoplay" id="sharing_<?= uuid ?>_autoplay" />
+        <label for="sharing_<?= uuid ?>_autoplay" class="light">
+          <img src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png" />
+        </label>
+        <span class="label">
+          Auto start playback
+        </span>
+      </div>
+    </fieldset>
+    <div class="public_footer">
+      <button class="primary make_private">Make Private</button>
+    </div>
+
+  </div>
+
+</script>
+
+<script type="text/template" id="edit_schedule_template">
+<div class="overlay light">
+  <div class="dimmer">
+  </div>
+  <form class="overlay_content">
+    <input type="hidden" name="uuid" value="<?= c.uuid ?>" />
+    <input type="hidden" name="property" value="<?= c.property ?>" />
+    <input type="hidden" name="cid" value="<?= c.sched.cid ? c.sched.cid : '' ?>" />
+    <fieldset>
+      <h1>Edit <?= c.property_name.charAt(0).toUpperCase() + c.property_name.slice(1) ?> Schedule</h1>
+      <div class="schedule_def_container">
+        <div>
+          <span class="time-range-label <?= c.sched.is_all_day ? 'disabled' : '' ?>">Turn off at:</span>
+          <input class="styled time-range-hour-input start_hour <?= c.sched.is_all_day ? 'disabled' : '' ?>" name="start_hour" type="text" value="<?= c.sched.start_hour_str ? c.sched.start_hour_str : '' ?>">
+          <span class="time-range-divider <?= c.sched.is_all_day ? 'disabled' : '' ?>">:</span>
+          <input class="styled time-range-min-input start_min <?= c.sched.is_all_day ? 'disabled' : '' ?>" name="start_min" type="text" value="<?= c.sched.start_min_str ? c.sched.start_min_str : '' ?>">
+          <input class="toggle_checkbox time-range-am-pm start_pm <?= c.sched.is_all_day ? 'disabled' : '' ?>" name="start_pm" type="checkbox" <?= c.sched.start_pm ? 'checked' : '' ?>>
+        </div>
+        <div>
+          <span class="time-range-label <?= c.sched.is_all_day ? 'disabled' : '' ?>">Turn on at:</span>
+          <input class="styled time-range-hour-input finish_hour <?= c.sched.is_all_day ? 'disabled' : '' ?>" name="finish_hour" type="text" value="<?= c.sched.finish_hour_str ? c.sched.finish_hour_str : '' ?>">
+          <span class="time-range-divider <?= c.sched.is_all_day ? 'disabled' : '' ?>">:</span>
+          <input class="styled time-range-min-input finish_min <?= c.sched.is_all_day ? 'disabled' : '' ?>" name="finish_min" type="text" value="<?= c.sched.finish_min_str ? c.sched.finish_min_str : '' ?>">
+          <input class="toggle_checkbox time-range-am-pm finish_pm <?= c.sched.is_all_day ? 'disabled' : '' ?>" name="finish_pm" type="checkbox" <?= c.sched.finish_pm ? 'checked' : '' ?>>
+        </div>
+
+        <div class="all_day">
+          <span class="time-range-label"></span>
+          <input type="checkbox" class="all_day styled_checkbox" name="all_day" id="all_day" <?= c.sched.is_all_day ? 'checked' : '' ?>>
+          <label class="light" for="all_day">
+            <img src="/images/spacer.png">
+          </label>
+          <span class="label">Turn off all day</span>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+      <div class="large-spacer"></div>
+
+      <h2>Repeat every:</h2>
+
+      <div class="large-spacer"></div>
+
+      <div class="schedule_def_container">
+        <div>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_mon styled_checkbox" id="on_mon" name="on_mon" <?= c.sched.on_mon ? 'checked' : '' ?>>
+            <label class="light" for="on_mon">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Mon</span>
+          </span>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_sun styled_checkbox" id="on_sun" name="on_sun" <?= c.sched.on_sun ? 'checked' : '' ?>>
+            <label class="light" for="on_sun">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Sun</span>
+          </span>
+        </div>
+        <div class="large-spacer"></div>
+        <div>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_tues styled_checkbox" id="on_tues" name="on_tues" <?= c.sched.on_tues ? 'checked' : '' ?>>
+            <label class="light" for="on_tues">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Tue</span>
+          </span>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_sat styled_checkbox" id="on_sat" name="on_sat" <?= c.sched.on_sat ? 'checked' : '' ?>>
+            <label class="light" for="on_sat">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Sat</span>
+          </span>
+        </div>
+        <div class="large-spacer"></div>
+        <div>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_wed styled_checkbox" id="on_wed" name="on_wed" <?= c.sched.on_wed ? 'checked' : '' ?>>
+            <label class="light" for="on_wed">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Wed</span>
+          </span>
+        </div>
+        <div class="large-spacer"></div>
+        <div>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_thur styled_checkbox" id="on_thur" name="on_thur" <?= c.sched.on_thur ? 'checked' : '' ?>>
+            <label class="light" for="on_thur">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Thu</span>
+          </span>
+        </div>
+        <div class="large-spacer"></div>
+        <div>
+          <span class="day-checkbox">
+            <input type="checkbox" class="on_fri styled_checkbox" id="on_fri" name="on_fri" <?= c.sched.on_fri ? 'checked' : '' ?>>
+            <label class="light" for="on_fri">
+              <img src="/images/spacer.png">
+            </label>
+            <span class="label">Fri</span>
+          </span>
+        </div>
+      </div>
+    </fieldset>
+    <div class="overlay_footer">
+      <button class="close_edit_schedule <?= c.sched.cid ? 'three-set' : '' ?>">Cancel</button>
+      <? if (c.sched.cid) { ?>
+        <button class="delete_schedule negative three-set">Delete</button>
+      <? } ?>
+      <button class="save_schedule primary last-button <?= c.sched.cid ? 'three-set' : '' ?>">Save</button>
+    </div>
+  </form>
+</div>
+<? if (c.sched.cid) { ?>
+<div class="popup light delete_schedule_confirmation">
+  <div class="popup_content">
+      <p class="heading"><strong>Are you sure you want to delete this schedule?</strong></p>
+  </div>
+  <div style="text-align: right">
+    <button class="secondary close_popup">Cancel</button>
+    <button class="negative delete_schedule_confirmed last-button" data-id="<?= c.sched.cid ?>">Delete</button>
+  </div>
+</div>
+<? } ?>
+</script>
+
+
+<script type="text/template" id="thumbnail_template">
+  <div class="preview">
+  <? if (events.length > 0) { ?>
+    <? if (events.length > 5) { ?>
+      <div class="left-slider"></div>
+    <? } ?>
+    <div class="preview-view">
+      <div class="preview-slide">
+        <? _.each(events, function(event, idx) { ?>
+          <div class="preview-event<?= idx === events.length - 1 ? ' last' : '' ?>">
+            <div class="image" <? if (event.category) { ?> style="border-bottom: 5px solid <?= event.category.color ?>;" <? } ?> >
+              <img class="thumbnail" src="/images/spacer.png" style="background-image:url('<?= event.imageURL ?>')<?= event.imageHeight ? '; height:' + event.imageHeight + 'px' : '' ?>" />
+              <div class="event-overlay" data-time="<?= event.time ?>"></div>
+            </div>
+            <div class="timestamp"><?= event.timestamp ?></div>
+          </div>
+        <? }) ?>
+      </div>
+    </div>
+    <? if (events.length > 5) { ?>
+      <div class="right-slider"></div>
+    <? } ?>
+  <? } ?>
+  <? if (!events.length) { ?>
+    <div class="preview-event last">
+      <div class="image">
+        <img class="thumbnail" src="/images/spacer.png" style="background-image:url('<?= imageURL ?>')<?= imageHeight ? '; height:' + imageHeight + 'px' : '' ?>" />
+        <div class="event-overlay" data-time="<?= time ?>"></div>
+      </div>
+      <div class="timestamp"><?= timestamp ?></div>
+    </div>
+  <? } ?>
+  </div>
+  <div class="preview-pointer-shadow"></div>
+  <div class="preview-pointer"></div>
+</script>
+
+<script type="text/template" id="clip_template">
+  <div class="v2">
+<? if (time_lapse) { ?>
+    <h4>Create a Timelapse Clip (beta)</h4>
+    Please allow up to 30 minutes for processing.
+<? } else { ?>
+    <h4>Save your new video clip</h4>
+<? } ?>
+    <input type="hidden" name="uuid" value="88677951976f4bb7b94cd35b358a6788" />
+    <div>
+      <label for="clip_title">Name</label>
+      <input type="text" Value="My New Clip" name="clip_title" id="clip_title" />
+    </div>
+    <div>
+      <label>Start</label>
+      <span><?= start ?></span>
+    </div>
+    <div>
+      <label>End</label>
+      <span><?= end ?></span>
+    </div>
+<? if (time_lapse) { ?>
+    <div>
+      <label>Original</label>
+      <span><?= length ?></span>
+    </div>
+    <div>
+      <label for="time_lapse_length">Timelapse</label>
+      <span>
+        <select id="time_lapse_length">
+          <option value="30">30</option>
+          <option value="60">60</option>
+          <option value="90">90</option>
+          <option value="120">120</option>
+        </select> seconds
+      </span>
+    </div>
+    <div for="time_lapse_smart">
+      <label></label>
+      <span>
+        <input id="time_lapse_smart" type="checkbox"> Smart Timelapse <br>
+        Smart Timelapse will slow down to show motion events
+      </span>
+    </div>
+<? } else { ?>
+    <div>
+      <label>Length</label>
+      <span><?= length ?></span>
+    </div>
+<? } ?>
+    <div class="save-clip-buttons">
+      <button class="save-clip-button save-clip-button-cancel">Cancel</button>
+      <button class="save-clip-button save-clip-button-save">Save Clip</button>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="zoom_enhance_template">
+  <div class="zoom_enhance_dialog v2">
+    <h5>You are about to enhance your video image.</h5>
+    <div>This will change:</div>
+
+    <ul>
+      <li>What is recorded on your timeline</li>
+      <li>Your activity zones</li>
+    </ul>
+
+    <span class="dialog_never_show">
+      <input type="checkbox" /> Do not show me this message again.
+    </span>
+    <div class="controls">
+      <button class="cancel_zoom_enhance_button">Cancel</button>
+      <button class="zoom_enhance_button">Enhance Video</button>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="troubleshoot_connectivity_template">
+  <div class="connectivity_dialog dialog v2">
+    <h1 class="dialog_heading">Improve your camera&rsquo;s Wi-Fi connection</h1>
+
+    <div>
+      <div class="tip signal">
+        <span class="count"></span>
+        <div class="graphic"></div>
+        <div class="copy">
+          <p>Move your router closer to your camera.</p>
+          <p>If possible, move your router to the same floor and room as your camera.</p>
+        </div>
+        <p><a href="http://support.dropcam.com/entries/21330667-Why-does-Dropcam-disconnect-from-my-Wi-Fi-network-?challenge=esu2tzftajheeyl">Learn more</a></p>
+      </div>
+
+      <div class="tip interference">
+        <span class="count"></span>
+        <div class="graphic"></div>
+        <div class="copy">
+          <p>Gaming and stereo systems, microwaves or other electronic devices may be causing interference.</p>
+          <p>Try repositioning electronics that are near your camera to see if the signal improves.</p>
+        </div>
+        <p><a href="http://support.dropcam.com/entries/24768872">Learn more</a></p>
+      </div>
+
+      <div class="tip bandwidth">
+        <span class="count"></span>
+        <div class="graphic"></div>
+        <div class="copy">
+          <p>Make sure your ISP offers adequate upload speed by going to <a href="http://speedtest.net" target="_blank">speedtest.net</a>.</p>
+          <p>We recommend that you have at least 0.5 Mbps dedicated to each camera.</p>
+        </div>
+        <p><a href="http://support.dropcam.com/entries/21438818">Learn more</a></p>
+      </div>
+    </div>
+
+    <span class="dialog_description">Camera still not connecting to Wi-Fi? <a href="mailto:connectivity@dropcam.com?subject=General%20Wi-Fi%20connection%20issues&body=We%E2%80%99d%20love%20to%20help%20you%20improve%20your%20camera%E2%80%99s%20connectivity.%20By%20answering%20the%20questions%20below%2C%20you%E2%80%99ll%20provide%20us%20with%20valuable%20information%20that%20can%20help%20solve%20the%20problem.%20%0A%0A1.%20What%20color%20is%20the%20status%20light%20on%20the%20front%20of%20your%20camera%3F%20Is%20it%20flashing%20or%20displaying%20a%20solid%20light%3F%0A%0A2.%20What%20other%20electronic%20devices%20are%20near%20your%20camera%3F%20(Microwave%2C%20TVs%2C%20speakers%20and%20so%20on)%0A%0A3.%20What%20other%20wireless%20devices%20are%20connected%20to%20your%20Wi-Fi%20network%3F%20(Gaming%20systems%2C%20laptops%2C%20baby%20monitors)%0A%0A4.%20What%E2%80%99s%20the%20approximate%20distance%20(including%20number%20of%20floors%20and%20walls)%20between%20your%20camera%20and%20your%20router%3F%0A%0A5.%20What%20is%20your%20upload%20speed%20result%20from%20speedtest.net*%3F%0A%0A*%20For%20accurate%20speedtest.net%20results%2C%20you%20must%20run%20this%20test%20while%20connected%20to%20the%20same%20Wi-Fi%20network%20as%20your%20Dropcam.%0A%0AThe%20information%20below%20will%20help%20us%20provide%20better%20support.%20You%20can%20delete%20these%20details%20if%20you%20are%20not%20comfortable%20sharing%20them%2C%20but%20doing%20so%20may%20hinder%20our%20ability%20to%20troubleshoot%20your%20problem.%0A%0A">Contact our support team</a></span>
+  </div>
+</script>
+
+<script type="text/template" id="activity-list-template">
+  <div class="list-group">
+    <h5>Activity Zones</h5>
+
+    <div class="message-bar">
+      <div class="message message-warning" name="settings-disabled">
+        <div class="text">
+          <p></p>
+          <p><span class="dismiss">Dismiss</span><a href="#">Click here to enable</a></p>
+        </div>
+      </div>
+    </div>
+
+    <ul class="categories-list categories-region"></ul>
+    <a id="create-region" style="<?= (c.editableRegions.length == 0) ? 'display:none' : '' ?>"><strong>+</strong> Create new zone</a>
+
+    <div id="regions-first-time" style="<?= (c.editableRegions.length == 0) ? 'display:none' : '' ?>">
+      <div class="graphic"></div>
+      <h4>Create a custom activity zone</h4>
+      <p>Receive alerts about specific areas within your camera’s view.</p>
+      <a class="btn"><span>+</span> Create new zone</a>
+    </div>
+  </div>
+
+  <div class="activities-drawer-tab">
+    <span class="open"></span>
+    <span class="closed"></span>
+  </div>
+
+  <div class="preload">
+    <div class="loading">Loading...</div>
+    <div class="disabled">
+      <p>
+        Please turn on "Motion Detection" in your camera settings to see your recognized activities.
+      </p>
+      <p>
+        <a href="#settings">Open settings</a>
+      </p>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="detector-template">
+  <div class="name" data-id="<?- c.id ?>">
+    <div class="<?= c.visible ? 'visible ' : '' ?>show"></div>
+    <?- c.label ?>
+    <div class="control alerts <?= c.hidden ? 'off' : '' ?>" title="Toggle alerts"></div>
+  </div>
+</script>
+
+<script type="text/template" id="region-template">
+  <? if (c.selected) { ?>
+    <ul data-rgbint="<?- c.color ?>" class="color-picker">
+      <li><div style="background-color: <?- c.colorCss ?>"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(187, 187, 187)" data-rgbint="12303291"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(143, 206, 2)" data-rgbint="9424386"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(51, 159, 255)" data-rgbint="3383295"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(216, 117, 255)" data-rgbint="14185983"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(255, 84, 82)" data-rgbint="16733266"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(255, 143, 2)" data-rgbint="16748290"></div></li><!--
+      --><li class="swatch"><div style="background: rgb(238, 203, 3)" data-rgbint="15649539"></div></li><!--
+      --><li class="tab"></li>
+    </ul>
+    <input class="category-label" type="text" value="<?- c.label ?>">
+
+    <div class="notification">
+      <div class="control alerts <?= c.hidden ? 'off' : '' ?>" title="Toggle alerts"></div>
+      <span><strong><?- c.label ?></strong> activity was detected by <?- c.cameraTitle ?> camera.</span>
+    </div>
+
+    <div class="actions clearfix">
+      <? if (c.id !== undefined) { ?>
+        <a class="del">Delete</a>
+      <? } ?>
+      <a class="save right">Save</a>
+      <a class="cancel right">Cancel</a>
+    </div>
+  <? } else { ?>
+    <div class="name" data-id="<?- c.id ?>" style="border-left-color: <?- c.colorCss ?>">
+      <div class="<?= c.visible ? 'visible ' : '' ?>show"></div>
+      <?- c.label ?>
+      <? if (c.editable) { ?>
+      <a class="control edit" title="Edit zone">Edit</a>
+      <? } ?>
+      <div class="control alerts <?= c.hidden ? 'off' : '' ?>" title="Toggle alerts"></div>
+    </div>
+  <? } ?>
+</script>
+
+
+
+
+
+
+
+
+  <div class="clear"></div>
+</div>
+
+
+
+
+
+
+<div class="footer_user">
+  <div class="primary-row">
+    <a href="/">
+      <img alt="Dropcam Homepage" class="webapp-icons-dropcam_logo" src="//d2j1x2hflioiqf.cloudfront.net/images/spacer.png"/>
+    </a>
+    <ul class="right">
+      <li>
+        <a href="/support"><div class="icon webapp-icons-support"></div>Support</a>
+      </li>
+    </ul>
+  </div>
+	<div class="legal_links">
+    <ul>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="tos">Terms of Service</a></li>
+      <li><a href="/open_source">Open Source</a></li>
+      <li><a href="/developers">Developers</a></li>
+      <li><a href="/security">Security</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+
+<script type="text/javascript">
+  (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+
+  mixpanel.init('854cf6c1a4f05084f6347ab081e2e394');
+  
+      mixpanel.identify(220933);
+
+  /**
+   * ---> ALWASYS USE DC.mixpanel.track <---
+   * intead of mixpanel.track because
+   * mixpanel codes loaded asynchoronously.
+   * If mixpanel.track got called before the mixpanel lib loaded, 
+   * then it sucks!
+   * 
+   * data:            place to store the tracked event data
+   * track:           if mixpanel.track exists, then let it do the job
+   *                  otherwise, queue up the tracking data 
+   * onMixpaneLoaded: a callback function when mixpanel is loaded,
+   *                  send out the data and clear up the queue 
+   * init: call it after the mixpanel codes and all set!
+   */
+  window.DC = window.DC || {};
+  window.DC.mixpanel = {
+    data: [],
+    track: function(event, options) {
+      if (mixpanel && typeof mixpanel.track === 'function') {
+        mixpanel.track(event, options);
+      } else {
+        DC.mixpanel.data.push({ event: event, options: options });
+      }
+    },
+    onMixpanelLoaded: function() {
+      var data = DC.mixpanel.data;
+      for (var i = 0; data[i]; i++) {
+        if (data[i].options) {
+          mixpanel.track(data[i].event, data[i].options);
+        } else {
+          mixpanel.track(data[i].event);
+        }
+      }
+      data = [];
+    },
+    init: function() {
+      if (mixpanel.__loaded) {
+        this.onMixpanelLoaded();
+      } else {
+        mixpanel.set_config({ loaded: DC.mixpanel.onMixpanelLoaded });
+      }
+    }
+  };
+
+  window.DC.mixpanel.init();
+</script>
+    
+  
+  <script type="text/javascript">
+      
+
+
+       window.messages = [];
+
+     window.messages = ([]).concat(window.messages || []);
+
+
+
+
+  </script>
+  
+  
+  <script type="text/javascript" src="//d2j1x2hflioiqf.cloudfront.net/built/js/dc.min.js?ed5e166a9e"></script>
+
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NDLBP4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+  {'gtm.start': new Date().getTime(),event:'gtm.js'}
+  );var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NDLBP4');
+  </script>
+
+  
+  <script type="text/javascript">
+    $('a.zendesk').bind('click', function(e) {
+      window.zenbox_params = {};
+      zenbox_params.tab_id = "questions";
+      zenbox_params.tab_color = "#24428f";
+      zenbox_params.title = "Dropcam Feedback";
+      zenbox_params.text = "Please let us know what you think about our web viewer!<br /><br />This form is for customer feedback only.<br /><br />If you have questions about using Dropcam or need help, please close this window and select the \"Support\" link. Our customer support team will be able to assist you promptly by phone or email.<br /><br />Thanks for providing feedback about our web viewer!<br /><br />Please fill in details below:";
+      zenbox_params.tag = "feedback_tab";
+      zenbox_params.url = "dropcam.zendesk.com";
+
+      var $style = $('<link />').attr('type', 'text/css').attr('rel', 'stylesheet').attr('href', '//assets0.zendesk.com/external/zenbox/overlay.css');
+      $('head').append($style);
+
+      require(['//assets0.zendesk.com/external/zenbox/overlay.js'], function() {
+        Zenbox.show();
+      });
+
+      e.preventDefault();
+      return false;
+    });
+  </script>
+  <style type='text/css'>
+    a#zenbox_tab {
+      display: none;
+    }
+    
+  </style>
+
+
+
+  <script type="text/javascript">
+    DC.util.addURLs({
+      'jquery.fancybox': '//d2j1x2hflioiqf.cloudfront.net/js/jquery.fancybox-1.3.4.pack.js?5396fd3d5d',
+      'jquery.ui': '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js',
+      'jwplayer': '//d2j1x2hflioiqf.cloudfront.net/js/jwplayer/jwplayer.js?548e12dfd5',
+      'jwplayer.swf': '//d2j1x2hflioiqf.cloudfront.net/js/jwplayer/player.swf?3b5eb34cda',
+      'modernizr': '//d2j1x2hflioiqf.cloudfront.net/js/modernizr.min.js?a97dd3a9dd',
+      'swfobject': '//d2j1x2hflioiqf.cloudfront.net/js/swfobject.js?b2f933c11c',
+      'underscore': '//d2j1x2hflioiqf.cloudfront.net/js/underscore.js?8a1aba4233',
+      'backbone': '//d2j1x2hflioiqf.cloudfront.net/js/backbone.js?a2ca146345',
+      'viewer.swf': '/flash/Viewer.swf?5ceeac77f2',
+      'viewer.js': '//d2j1x2hflioiqf.cloudfront.net/built/js/viewer.min.js?5f533cf62b',
+      'error': '//d2j1x2hflioiqf.cloudfront.net/built/js/error.min.js?c02b3db6ff',
+      'api.users.get_session_token': '/api/v1/users.get_session_token',
+      'cameras.deactivate': '/app/cameras/deactivate/{uuid}',
+      'api.videos.update': '/api/v1/videos.update',
+      'api.videos.facebook': '/api/v1/videos.facebook',
+      'clips.clip': '/app/clips/{id}',
+      jstz: '/js/jstz.min.js'
+    });
+    DC.util.setConfig('facebook.app_id', 260468840639200);
+      DC.util.setConfig('revid', '2c94e2d056');
+    $('#menu').on('click', function(e) {
+      e.stopPropagation();
+      $('.dropdown-toggle').dropdown('toggle');
+    });
+
+    //display subscription cart if there are items in the cart
+    DC.initServicesCartBtn = function() {
+      var cart = $.jStorage.get('subscription-cart') || {},
+          $cart = $('.user_task_bar a.cart'),
+          DCLocalStorage = $.jStorage.get('DC') || {},
+          countryCode = DCLocalStorage.countryCode;
+      if (cart.hasOwnProperty('cameras')) {
+        var itemsCount = _.keys(cart.cameras).length;
+        if (itemsCount > 0) {
+          var url = '/' + countryCode + '/plans/cart';
+          $cart.attr('href', url);
+          $cart.find('.circle .number').html(itemsCount);
+          $cart.show();
+        }
+      }else {
+        $cart.hide();
+      }
+    }
+
+    $('.connect-to-nest').click(function(e) {
+      e.preventDefault();
+      var currentUrl = document.location;
+      window.location.href = '/app/wwn/connect?redirect_to=' + currentUrl;
+    });
+  </script>
+
+
+  
+
+  <script>
+    if ($.browser.msie) {
+      var version = parseInt($.browser.version, 10);
+      if (version < 9) {
+        if (!DC.util.readCookie('viewer')) {
+          DC.util.createCookie('viewer', 1, 365);
+          location.reload();
+        }
+        DC.util.setupViewerToggle('88677951976f4bb7b94cd35b358a6788');
+      }
+    }
+
+    DC.util.addURLs({
+      "api.cameras.get_by_public_token": "/api/v1/cameras.get_by_public_token",
+      "api.subscriptions.block": "/api/v1/subscriptions.block",
+      'api.subscriptions.unblock': "/api/v1/subscriptions.unblock",
+      'api.subscriptions.resend_invite': "/api/v1/subscriptions.resend_invite",
+      'jquery.iButtonDC': '/js/jquery.iButtonDC.min.js',
+      'jquery.rangyinputs': '//d2j1x2hflioiqf.cloudfront.net/js/jquery.rangyinputs.min.js?181a600fe4'
+    });
+
+    DC.util.setConfig('viewerParams', {
+      cameraUuid: "88677951976f4bb7b94cd35b358a6788",
+      sessionToken: 'f17a5a2a20bb4c6abe6da18e44482486091d1326c656f05442236540e2a659c9cf9a891b',
+      playbackTime: null,
+      camera: {"where_options": [{"where": "", "nest_where_id": "custom"}, {"where": "Living Room", "nest_where_id": "00000000-0000-0000-0000-00010000000c"}, {"where": "Kitchen", "nest_where_id": "00000000-0000-0000-0000-00010000000a"}, {"where": "Entryway", "nest_where_id": "00000000-0000-0000-0000-000100000000"}, {"where": "Office", "nest_where_id": "00000000-0000-0000-0000-00010000000e"}, {"where": "Family Room", "nest_where_id": "00000000-0000-0000-0000-00010000000b"}, {"where": "Garage", "nest_where_id": "00000000-0000-0000-0000-000100000007"}, {"where": "Bedroom", "nest_where_id": "00000000-0000-0000-0000-00010000000d"}, {"where": "Kids Room", "nest_where_id": "00000000-0000-0000-0000-000100000008"}, {"where": "Basement", "nest_where_id": "00000000-0000-0000-0000-000100000001"}, {"where": "Upstairs", "nest_where_id": "00000000-0000-0000-0000-00010000000f"}, {"where": "Downstairs", "nest_where_id": "00000000-0000-0000-0000-000100000006"}, {"where": "Dining Room", "nest_where_id": "00000000-0000-0000-0000-000100000010"}, {"where": "Den", "nest_where_id": "00000000-0000-0000-0000-000100000003"}, {"where": "Master Bedroom", "nest_where_id": "00000000-0000-0000-0000-000100000005"}, {"where": "Hallway", "nest_where_id": "00000000-0000-0000-0000-000100000002"}], "is_audio_enabled": true, "nexus_get_image_url": "https://nexusapi.dropcam.com/get_image?width=280\u0026uuid=88677951976f4bb7b94cd35b358a6788", "streaming_schedule": {"override_reason": "iphone", "override_state": true, "key": "streaming.enabled", "camera_id": 224454, "geofencing_enabled": false, "overridden_at": 1404837106, "enabled": false, "id": 512964, "periods": []}, "is_streaming_enabled": true, "is_status_led_enabled": true, "accepted_subscriptions": [], "is_nest_away_notify_enabled": true, "is_video_flipped": false, "personal_subscriptions": [], "timezone": "America/New_York", "is_motion_detection_enabled": true, "id": 224454, "live_stream_host": "oculus116-vir.dropcam.com:1935", "is_streaming": true, "are_notifications_enabled": true, "uuid": "88677951976f4bb7b94cd35b358a6788", "notifications_schedule": {"override_reason": "iphone", "override_state": true, "key": "notify.enabled", "camera_id": 224454, "geofencing_enabled": false, "overridden_at": 1404837106, "enabled": false, "id": 512971, "periods": []}, "title": "DC-NY-34-02", "public_token": "udqhcz", "capabilities": ["image.properties", "irled", "force_idr", "video.flip", "backfill", "watermark", "standby", "udp", "detectors.on_camera", "statusled", "audio.speaker", "streaming.start-stop", "audio.microphone", "labs", "dptz", "streaming.params"], "properties": [{"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "audio.enabled", "value": true}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "notify.offline.enabled", "value": true}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "streaming.enabled", "value": true}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "audio.inputgainlevel", "value": 0.75}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "video.motiondetector.enabled", "value": true}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "dptz.state", "value": "1,1,0.5,0.5"}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "audio.sounddetector.enabled", "value": false}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "irled.state", "value": "auto_on"}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "notify.enabled", "value": true}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "notify.sound.enabled", "value": false}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "last_clustering_update", "value": "1404472569.47"}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "udp.enabled", "value": false}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "last_firmware_version", "value": "120"}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "statusled.enabled", "value": true}, {"camera_uuid": "88677951976f4bb7b94cd35b358a6788", "name": "notify.motion.enabled", "value": false}], "is_trial_mode": true, "pending_subscriptions": [], "location": null, "setup_wireless_url": "/setup/wireless/88677951976f4bb7b94cd35b358a6788", "mac_address": "308cfb24939f", "is_trial_warning": false, "serial_number": "Serial Number 308cfb24939f", "type": 6, "has_bundle": false, "owner_id": "220933", "last_local_ip": "192.168.1.18", "owner_email": "rabarar@yahoo.com", "description": "", "timezone_utc_offset": -14400, "is_labs_cloud_enabled": true, "setting": {"security_mode": "wpa_personal", "password": null, "id": 286565, "camera_id": 224454, "ssid": "BaruchLAN3"}, "irled_state": "auto_on", "nest_where_id": null, "notifications": [{"last_sent_at": null, "target_id": 1856176, "id": 2934391, "camera_id": 224454}, {"last_sent_at": "2014-07-08T16:30:14Z", "target_id": 1111232, "id": 2049414, "camera_id": 224454}], "schedules": [{"override_reason": "iphone", "override_state": true, "key": "notify.enabled", "camera_id": 224454, "geofencing_enabled": false, "overridden_at": 1404837106, "enabled": false, "id": 512971, "periods": []}, {"override_reason": "iphone", "override_state": true, "key": "streaming.enabled", "camera_id": 224454, "geofencing_enabled": false, "overridden_at": 1404837106, "enabled": false, "id": 512964, "periods": []}], "nexus_api_url_base": "https://nexusapi.dropcam.com", "is_public": false, "is_sound_notify_enabled": false, "is_online": true, "download_host": "oculus116-vir.dropcam.com:80", "recording_add_on_title": "Live Streaming", "name": "DC-NY-34-02", "dptz_state": "1,1,0.5,0.5", "is_motion_notify_enabled": false, "is_hd_video_enabled": true, "audio_input_gain_level": 0.75, "nest_structure_id": null, "is_sound_detection_enabled": false, "is_labs_active": false, "trial_days_left": 0, "hours_of_recording_max": 0.0, "is_nest_away_streaming_enabled": false, "where": "", "nest_structure_name": null, "timezone_options": [["Pacific/Honolulu", "Pacific/Honolulu HST"], ["America/Anchorage", "America/Anchorage AKDT"], ["America/Los_Angeles", "America/Los Angeles PDT"], ["America/Denver", "America/Denver MDT"], ["America/Phoenix", "America/Phoenix MST"], ["America/Chicago", "America/Chicago CDT"], ["America/New_York", "America/New York EDT"]], "is_offline_notify_enabled": true},
+      nexusApiUrlBase: 'https://nexusapi.dropcam.com',
+      sessionUserId: 220933,
+      videoAspectRatio: 1.77570093458,
+      videoHeight: 535,
+      videoWidth: 950,
+      isCameraOwner: true,
+      isUserSubscribed: false,
+      enableZoom: true,
+      environment: 'production'
+    });
+    DC.util.setConfig('userHasNestOauth', false);
+
+    require(['//d2j1x2hflioiqf.cloudfront.net/app/static/js-built/common.js?1dc965d23d'], function() {
+      require(['app/viewer']);
+    });
+
+    $('.no-dvr-buttons button').on('click', function() {
+      document.location = '/plans/select';
+    });
+
+    // Hide broken thumbnails
+    $('.thumbnail').on('error', function(e) {
+      $(e.target).css({visibility: 'hidden'});
+    });
+
+
+    window._gaq.push(['_trackEvent', 'Viewer', 'HTML5 Page View']);
+
+  </script>
+
+  </div>
+  
+  
+
+  
+
+<script type="text/javascript">
+  
+  var _sift = _sift || []; _sift.push(['_setAccount', "93460a749b"]); _sift.push(['_setUserId', 'rabarar@yahoo.com']); _sift.push(['_setSessionId', 'f17a5a2a20bb4c6abe6da18e44482486']); _sift.push(['_trackPageview']); _sift.push(['_setCookieDomain','siftscience.dropcam.com']); (function() { function ls() { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.siftscience.com/sb.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); } if (window.attachEvent) { window.attachEvent('onload', ls); } else { window.addEventListener('load', ls, false); }})();
+</script>
+
+  
+</body>
+<!--www8-vir.dropcam.com,2c94e2d05683658aa4183c181e3ed70b906c943c refs/heads/master 2014.10.13 21:48:11-->
+</html>
+
+
+============================ 
+<param name="flashvars" value="uuid=764925a184a04391b03bfe0c287b18b6&amp;cameraScale=1.0&amp;cameraCenterX=0.5&amp;cameraCenterY=0.5&amp;
+sessionToken=d10984d14c1c4c11a39436ca71e6015307dbd34ecd5fa3a70427ddc5eb3450c73b61b14f&amp;liveStreamHost=oculus263-vir.dropcam.com%3A1935&amp;recordedStreamHost=oculus263-vir.dropcam.com%3A1935&amp;talkbackStreamHost=stream-alfa.dropcam.com%3A443&amp;nexusApiUrlBase=https%3A//nexusapi.dropcam.com&amp;videoAspectRatio=1.77570093458&amp;videoWidth=950&amp;enableZoom=true&amp;maxZoom=8&amp;enableFullscreen=true">
